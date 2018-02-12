@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# 可重复、无序集合
+
 fruit = ['apple', 'banana', 'orange']
 
 print(fruit)
@@ -47,3 +49,8 @@ print(arrs)
 # range函数生成整数数列
 print(range(6))
 print(list(range(7)))
+
+# sort()
+aa = ['c', 'b', 'a']
+aa.sort()
+print(aa)
