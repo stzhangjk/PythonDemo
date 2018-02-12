@@ -43,3 +43,7 @@ arrs = [
     'abc'
 ]
 print(arrs)
+
+# range函数生成整数数列
+print(range(6))
+print(list(range(7)))
